@@ -12,14 +12,4 @@ A few examples:(Input1, Input2, Input3 --> Output)
 5, 2, "divide"   --> 2.5
 Try to do it without using if statements! */
 //Solution: 
-function arithmetic(a, b, operator){
-    if ( operator === "add"){
-    return a + b
-    } else if( operator === "subtract"){
-      return a - b 
-    } else if( operator === "multiply"){
-      return a * b
-    } else if( operator === "divide"){
-      return a / b
-    }
-}
+const arithmetic = (a,b,operator) => operator == "add" ? a + b : operator == "subtract" ? a - b : operator == "multiply" ? a * b : operator == "divide" ? a / b : null 
