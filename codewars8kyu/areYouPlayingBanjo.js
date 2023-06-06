@@ -14,4 +14,4 @@ function areYouPlayingBanjo(name) {
 }
 //Examples 
 //areYouPlayingBanjo("Adam") => "Adam does not play banjo");
-//areYouPlayingBanjo("Ringo") => "Ringo plays banjo");
+//areYouPlayingBanjo("Ringo") =>gi "Ringo plays banjo");
